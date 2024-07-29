@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+#div {
+    height: 100vh;
+    background-color: #014179;
+    overflow: scroll;
+    /* padding: 10px; */
+}
+
+.uper {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.lower {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form {
+    height: 250px;
+    width: 460px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.form input[type='text'] {
+    height: 40px;
+    padding-left: 10px;
+    width: 95%;
+    border-radius: 5px;
+    border: 1px solid rgb(184, 180, 180);
+    outline: none;
+}
+
+button {
+    height: 40px;
+    width: 120px;
+    border: 1px solid rgb(184, 180, 180);
+    background-color: #014179;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.datalist {
+    height: 100px;
+    width: 60%;
+    background-color: rgb(187, 170, 170);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ProductList {
+    width: 75%;
+    background-color: rgb(58, 43, 43);
+}
+
+.datee {
+    height: 100%;
+    width: 100%;
+    background-color: #014179;
+    text-align: center;
+    color: white;
+}
+
+.datee h2 {
+    padding-top: 10px;
+}
+
+.cld {
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.cld h2 {
+    padding: 10px;
+}
+
+table {
+    width: 100%;
+    text-align: left;
+    margin-left: 10px;
+    border-collapse: collapse;
+
+}
+
+i {
+    cursor: pointer;
+}

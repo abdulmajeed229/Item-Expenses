@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="div">
+
+        <div class="uper">
+
+            <div class="form">
+                <h2>Budget</h2>
+                <br>
+                <input type="text" id="setInput" placeholder="Enter Budget Here">
+                <br><br>
+                <button onclick="foo()">Set Budget</button>
+            </div>
+
+            <div class="form">
+                <h2>Expenses</h2>
+                <br>
+                <input type="text" id="checkInput1" placeholder="Enter Name Of Product">
+                <br><br>
+                <input type="text" id="checkInput2" placeholder="Enter Cost Of Product">
+                <br><br>
+                <button onclick="moo()">Check Amount</button>
+            </div>
+        </div>
+
+        <div class="lower">
+            <div class="datalist">
+                <div class="datee">
+                    <h2>Total Budget</h2>
+                    <h3 id="totalBud">0</h3>
+                </div>
+                <div class="datee">
+                    <h2>Expenses</h2>
+                    <h3 id="espansese">0</h3>
+                </div>
+                <div class="datee">
+                    <h2>Balance</h2>
+                    <h3 id="balance">0</h3>
+                </div>
+            </div>
+
+            <div class="ProductList">
+                <div class="cld">
+                    <h2>Expenses List</h2>
+                    <br>
+                    <table id="table">
+                        <tr>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
