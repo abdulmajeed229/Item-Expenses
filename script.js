@@ -1,4 +1,3 @@
-
 let setInput = document.getElementById('setInput');
 let checkInput1 = document.getElementById('checkInput1');
 let checkInput2 = document.getElementById('checkInput2');
